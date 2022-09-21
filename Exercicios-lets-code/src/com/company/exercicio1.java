@@ -6,7 +6,7 @@ import java.util.Scanner;
 // usuário (entre 1-10).
 
 public class exercicio1 {
-    public static void tabuada(){
+    public static void tabuada() {
         System.out.println("Entre com um numero de 1 a 10:");
 
         Scanner entrada = new Scanner(System.in);

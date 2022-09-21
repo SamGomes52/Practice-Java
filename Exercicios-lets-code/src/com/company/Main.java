@@ -5,9 +5,12 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Exercicios Let's Code Java\n" +
+        System.out.println("*********************************\n" +
+                "Exercicios Let's Code Java\n" +
+                "*********************************\n" +
                 "Selecione a opcao desejada:\n" +
-                "1 - Tabuada");
+                "1 - Tabuada\n" +
+                "2 - Conversor de temperatura\n");
 
         Scanner entrada = new Scanner(System.in);
         int numero = Integer.parseInt(entrada.nextLine());
@@ -15,6 +18,10 @@ public class Main {
         switch (numero) {
             case 1:
                 exercicio1.tabuada();
+                break;
+
+            case 2:
+                exercicio2.conversorTemperaturas();
                 break;
 
             default:
