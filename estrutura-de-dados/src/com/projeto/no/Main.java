@@ -1,11 +1,11 @@
-package com.projetono;
+package com.projeto.no;
 
 public class Main {
     public static void main(String[] args) {
-        No no1 = new No("Esse eh o no 1");
-        No no2 = new No("Esse eh o no 2");
-        No no3 = new No("Esse eh o no 3");
-        No no4 = new No("Esse eh o no 4");
+        No<String> no1 = new No<>("Esse eh o no 1");
+        No<String> no2 = new No<>("Esse eh o no 2");
+        No<String> no3 = new No<>("Esse eh o no 3");
+        No<String> no4 = new No<>("Esse eh o no 4");
 
         no1.setProximoNo(no2);
         no2.setProximoNo(no3);
